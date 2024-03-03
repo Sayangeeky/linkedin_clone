@@ -1,0 +1,38 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    border-bottom: 0.1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    z-index: 999;
+}
+
+.header_left{
+
+    display: flex;
+}
+.logo{
+    padding-left: 30px;
+    color: #0a66c2;
+    margin-right: 10px;
+}
+.header_search{
+    margin-top: 5px;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    border-radius: 5px;
+    color: grey;
+    height: 12px;
+    background-color: #eef3f8;
+ 
+}
+
+.header_search > input{
+    outline: none;
+    border: none;
+    background: none;
+}
